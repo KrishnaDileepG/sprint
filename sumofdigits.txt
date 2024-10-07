@@ -1,0 +1,20 @@
+3 start number:465 sum:0
+rem:0 quotient:0 zero:0 
+ten:10 one:1
+
+start:7 number quotient
+check:4 quotient zero stop
+7 quotient rem
+7 zero quotient
+
+check1:5 rem ten check2
+2 rem ten rem
+1 quotient one quotient
+3 check1
+
+check2:1 sum rem sum
+3 check
+
+stop:9
+
+ 
