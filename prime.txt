@@ -1,0 +1,16 @@
+3  start
+number:5 prime:0
+iteration:2 one:1
+zero:0
+remainder:0
+start:5 number iteration hault
+4 number iteration hault
+7 number remainder
+2 remainder iteration remainder
+4 remainder zero check1
+5 remainder iteration check2
+3 20
+check2:1 iteration one iteration
+3 start
+check1:7 one prime
+hault:9
