@@ -1,0 +1,28 @@
+3 5 start_loc:47 length:2
+3 start
+one:1 result:100 temp:0
+
+
+start:7 start_loc first
+7 result result_copy1
+7 result result_copy2
+7 result result_copy3
+
+0 0 result_copy3:0
+
+check:4 temp length stop
+1 first:0 result_copy1:0 result_copy2:0
+
+1 temp one temp
+
+1 first one first
+3 check
+stop:9
+
+
+9
+6
+7
+45
+5
+
