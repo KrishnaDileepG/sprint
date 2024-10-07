@@ -1,0 +1,19 @@
+3 start
+num:290 sroot:0
+start:3 11
+odd:1
+nums:0
+two:2
+one:1
+7 num nums
+4 3 10 41
+4 7 8 27
+5 7 8 27
+stop:9
+2 nums odd nums
+1 sroot one sroot
+1 odd two odd
+3 18
+7 one sroot
+3 stop
+
