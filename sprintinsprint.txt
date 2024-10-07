@@ -1,0 +1,114 @@
+3 start
+one:1 nine:9 instruction:0
+three:3 pointer:0 seven:7 zero:0 two:2 four:4 new_addr:0
+five:5  six:6 newless_addr:0
+
+start:1 lastcell one instruction
+loop:7 instruction given
+7 given:0 pointer
+4 pointer nine stop
+4 pointer three jump
+4 pointer seven copy
+4 pointer zero put
+4 pointer one addition
+4 pointer two sub
+4 pointer four equal
+4 pointer five less
+4 pointer six input
+
+stop:7 instruction stopaddress
+3 stopaddress:0
+
+jump:1 instruction one instruction
+7 instruction jumpaddress
+1 lastcell jumpaddress:0 instruction
+3 loop
+
+copy:1 instruction one instruction
+7 instruction copyaddress1
+1 copyaddress1:0 lastcell add1
+1 instruction one instruction
+7 instruction copyaddress2
+1 copyaddress2:0 lastcell add2
+7 add1:0 add2:0
+1 instruction one instruction
+3 loop
+
+put:1 instruction one instruction
+7 instruction val_addr
+7 val_addr:0 value
+1 instruction one instruction
+7 instruction add3
+1 add3:0 lastcell add4
+0 value:0 add4:0
+1 instruction one instruction
+3 loop
+
+addition:1 instruction one instruction
+7 instruction add_addr
+1 add_addr:0 lastcell add_addr1
+1 instruction one instruction
+7 instruction add_addr2
+1 add_addr2:0 lastcell add_addr3
+1 instruction one instruction
+7 instruction add_add4
+1 add_add4:0 lastcell store_address
+1 add_addr1:0 add_addr3:0 store_address:0
+1 instruction one instruction
+3 loop
+
+sub:1 instruction one instruction
+7 instruction sub_addr
+1 sub_addr:0 lastcell sub_addr1
+1 instruction one instruction
+7 instruction sub_addr2
+1 sub_addr2:0 lastcell sub_addr3
+1 instruction one instruction
+7 instruction sub_add4
+1 sub_add4:0 lastcell sub_address
+2 sub_addr1:0 sub_addr3:0 sub_address:0
+1 instruction one instruction
+3 loop
+
+equal:1 instruction one instruction
+7 instruction equal_addr1
+1 lastcell equal_addr1:0 equal1
+1 instruction one instruction
+7 instruction equal_addr2
+1 lastcell equal_addr2:0 equal2
+1 instruction one instruction
+7 instruction equal_addr3
+4 equal1:0 equal2:0 equalvalue
+1 instruction one instruction
+3 loop
+
+equalvalue:7 equal_addr3:0 new_addr
+1 lastcell new_addr instruction
+3 loop
+
+less:1 instruction one instruction
+7 instruction less_addr1
+1 lastcell less_addr1:0 less1
+1 instruction one instruction
+7 instruction less_addr2
+1 lastcell less_addr2:0 less2
+1 instruction one instruction
+7 instruction less_addr3
+5 less1:0 less2:0 lessvalue
+1 instruction one instruction
+3 loop
+
+lessvalue:7 less_addr3:0 newless_addr
+1 lastcell newless_addr instruction
+3 loop
+
+input:1 instruction one instruction
+7 instruction input_addr
+1 lastcell input_addr:0 input_addr1
+6 input_addr1:0
+1 instruction one instruction
+3 loop
+
+lastcell:lastcell
+
+6 4 9
