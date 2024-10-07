@@ -1,0 +1,32 @@
+3 6
+first_loc:72 length:3 palindrome:0
+3 start
+firstadd:0 lastadd:0 fvalue:0 lvalue:0 one:1 two:2 zero:0
+
+start:4 length zero check3
+
+7 first_loc firstadd
+2 length one lastadd
+1 lastadd firstadd lastadd
+
+check:5 lastadd firstadd check2
+7 firstadd fvalue
+7 lastadd lvalue
+7 fvalue fvalue2
+7 lvalue lvalue2
+
+4 fvalue2:0 lvalue2:0 check1
+7 one palindrome
+stop:9
+check1:1 firstadd one firstadd
+2 lastadd one lastadd
+3 check
+
+check2:7 two palindrome 
+9
+check3:7 one palindrome 
+9
+8
+9
+8
+ 
