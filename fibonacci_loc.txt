@@ -1,0 +1,19 @@
+3 start
+firstelement_loc:100 n:6
+first_term:1
+sec_term:-1
+count:0
+one:1
+
+start:4 count n stop
+7 firstelement_loc first
+1 first_term sec_term first:0
+1 count one count
+1 firstelement_loc one firstelement_loc
+
+7 first_term sec_term
+7 first x
+7 x:0 first_term
+3 start
+
+stop:9
