@@ -1,0 +1,31 @@
+3 start
+length:5 
+temp:0
+one:1 
+first:56
+l:0 
+f:0
+start:7 first f
+2 length one l 
+1 f l l
+loop:7 f f2
+7 l l2
+7 f f1
+7 l l3
+7 f2:0 temp
+7 l3:0 f1:0
+7 temp l2:0
+1 f one f
+2 l one l
+5 f l loop
+9
+5
+8
+5
+4
+4
+7
+2
+
+
+
